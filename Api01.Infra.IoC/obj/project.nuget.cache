@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "f+3YuIcQ3lq1tIxKX3bnZ8fJsFNpieE6Knm8b3A5PS/TSylQK8GRprNXLwnoXOvdhQYPqndoczBJjowOmfSAUg==",
+  "dgSpecHash": "1+LCJgGoESKmH8nHLUjynMvZVxBCrJ+lzFXalqzeF6ID2X/hONH59SujAgRc1oP3Ada+LKiQo1kr687HqArdog==",
   "success": true,
   "projectFilePath": "C:\\temp\\ws-vs\\Api01\\Api01.Infra.IoC\\Api01.Infra.IoC.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\kirmc\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\kirmc\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\kirmc\\.nuget\\packages\\fluentvalidation\\10.3.6\\fluentvalidation.10.3.6.nupkg.sha512",
+    "C:\\Users\\kirmc\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\kirmc\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.11\\microsoft.entityframeworkcore.7.0.11.nupkg.sha512",
     "C:\\Users\\kirmc\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.11\\microsoft.entityframeworkcore.abstractions.7.0.11.nupkg.sha512",
     "C:\\Users\\kirmc\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.11\\microsoft.entityframeworkcore.analyzers.7.0.11.nupkg.sha512",

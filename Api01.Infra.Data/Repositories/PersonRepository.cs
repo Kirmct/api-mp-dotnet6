@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace Api01.Infra.Data.Repositories
 {
-    internal class PersonRepository : IPersonRepository
+    public class PersonRepository : IPersonRepository
     {
         private readonly ApplicationDbContext _db;
         public PersonRepository(ApplicationDbContext db)

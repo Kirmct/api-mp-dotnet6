@@ -20,7 +20,7 @@ namespace Api01.Application.Services
             };
         }
 
-        //problemas de requisicao
+        //problemas de requisicao, esse validationResult eh do fluentValidation
         public static ResultService<T> RequestError<T>(string message, ValidationResult validationResult)
         {
             return new ResultService<T>

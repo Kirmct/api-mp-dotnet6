@@ -22,28 +22,28 @@ public sealed class Purchase
     public Person Person { get; set; }
     public Product Product { get; set; }
 
-    public Purchase(int productId, int personId, DateTime? date)
+    public Purchase(int productId, int personId)
     {
-        Validation(productId, personId, date);
+        Validation(productId, personId);
     }
 
-    public Purchase(int id, int productId, int personId, DateTime? date)
+    public Purchase(int id, int productId, int personId)
     {
         DomainValidationExceptions.When(id < 0, "Id inválido!");
         Id = id;
-        Validation(productId, personId, date);
+        Validation(productId, personId);
     }
 
 
-    private void Validation(int productId, int personId, DateTime? date)
+    private void Validation(int productId, int personId)
     {
         DomainValidationExceptions.When(productId < 0, "Produto deve ser informado!");
         DomainValidationExceptions.When(personId < 0, "Pessoa deve ser informado!");
-        DomainValidationExceptions.When(!date.HasValue, "Data da compra deve ser informado!");
+        //DomainValidationExceptions.When(!date.HasValue, "Data da compra deve ser informado!");
 
         ProductId = productId;
         PersonId = personId;
-        Date = date.Value;
+        Date = DateTime.Now;
     }
 
 }

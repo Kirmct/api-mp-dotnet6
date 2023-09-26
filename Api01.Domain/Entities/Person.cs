@@ -19,19 +19,16 @@ public sealed class Person
     public Person(string name, string document, string phone)
     {
         Validation(name, document, phone);
-        Name = name;
-        Document = document;
-        Phone = phone;
+        Purchases = new List<Purchase>();
     }
 
     public Person(int id, string name, string document, string phone)
     {
         DomainValidationExceptions.When(id < 0, "Id inválido!");
-        Validation(name, document, phone);
         Id = id;
-        Name = name;
-        Document = document;
-        Phone = phone;
+        Validation(name, document, phone);       
+        Purchases = new List<Purchase>();
+
     }
 
     private void Validation(string name, string document, string phone)
@@ -39,5 +36,9 @@ public sealed class Person
         DomainValidationExceptions.When(string.IsNullOrEmpty(name), "Nome deve ser informado!");
         DomainValidationExceptions.When(string.IsNullOrEmpty(document), "Documento deve ser informado!");
         DomainValidationExceptions.When(string.IsNullOrEmpty(phone), "Telefone deve ser informado!");
+
+        Name = name;
+        Document = document;
+        Phone = phone;
     }
 }

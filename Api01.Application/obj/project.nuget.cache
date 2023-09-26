@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "zi/KKiAiPALbIbG5rsEDxeFLk5CXm8OYV20p3k7vWLe1xJYRx7QCUe9UA5DQb0J59Vtls+CLGeie8AMTWqYtDA==",
+  "dgSpecHash": "FP7DiZ/U+iCkC+ZTnzWtv4tWXxModup4MTK6TmZDODMta29PAxc0+mYx60S6ae2KDJFS2o52IfDUidrITzWXug==",
   "success": true,
   "projectFilePath": "C:\\temp\\ws-vs\\Api01\\Api01.Application\\Api01.Application.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\kirmc\\.nuget\\packages\\fluentvalidation\\10.3.6\\fluentvalidation.10.3.6.nupkg.sha512"
+    "C:\\Users\\kirmc\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\kirmc\\.nuget\\packages\\fluentvalidation\\10.3.6\\fluentvalidation.10.3.6.nupkg.sha512",
+    "C:\\Users\\kirmc\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
   ],
   "logs": []
 }
