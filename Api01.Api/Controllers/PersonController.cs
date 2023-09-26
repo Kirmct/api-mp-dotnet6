@@ -17,7 +17,7 @@ namespace Api01.Api.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult> Post([FromBody] PersonDTO personDTO)
+        public async Task<ActionResult> PostAsync([FromBody] PersonDTO personDTO)
         {
             var result = await _personService.CreateAsync(personDTO);
             if (result.IsSucess)
@@ -26,5 +26,29 @@ namespace Api01.Api.Controllers
             }
             return BadRequest(result);
         }
+
+        [HttpGet]
+        public async Task<ActionResult> GetPeoplesAsync() 
+        {
+            var result = await _personService.GetAsync();
+            if (result.IsSucess) 
+                return Ok(result);
+
+            return BadRequest(result);
+        }
+
+        [HttpGet]
+        [Route("{id}")]
+        public async Task<ActionResult> GetById(int id)
+        {
+            var result = await _personService.GetByIdAsync(id);
+
+            if (result.IsSucess)
+            {
+                return Ok(result);
+            }
+            return BadRequest(result);
+        }
+
     }
 }

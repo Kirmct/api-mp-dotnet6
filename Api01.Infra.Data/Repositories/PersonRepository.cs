@@ -39,7 +39,7 @@ namespace Api01.Infra.Data.Repositories
 
         public async Task<Person> GetByIdAsync(int id)
         {
-           return await _db.People.FirstOrDefaultAsync(p => p.Id == id);
+            return await _db.People.FirstOrDefaultAsync(x => x.Id == id);
         }
 
         public async Task<ICollection<Person>> GetPeoplesAsync()

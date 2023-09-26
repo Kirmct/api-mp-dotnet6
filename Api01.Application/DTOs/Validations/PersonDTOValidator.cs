@@ -12,7 +12,7 @@ public class PersonDTOValidator : AbstractValidator<PersonDTO>
 {
 	public PersonDTOValidator()
 	{
-		RuleFor(x => x.Documento)
+		RuleFor(x => x.Document)
 			.NotEmpty()
 			.NotNull()
 			.WithMessage("Document deve ser informado!");
