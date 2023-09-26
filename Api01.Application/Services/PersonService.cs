@@ -27,7 +27,7 @@ namespace Api01.Application.Services
         {
             if(personDTO == null)
             {
-                return ResultService.Fail <PersonDTO>("Objeto deve ser informado");
+                return ResultService.Fail<PersonDTO>("Objeto deve ser informado");
             }
 
             var result = new PersonDTOValidator().Validate(personDTO);

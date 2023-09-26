@@ -22,7 +22,7 @@ public static class DependencyInject
     {
         //injetando o banco
         services.AddDbContext<ApplicationDbContext>(options => 
-            options.UseNpgsql(configuration.GetConnectionString("")));
+            options.UseNpgsql(configuration.GetConnectionString("DefaultConection")));
 
         services.AddScoped<IPersonRepository, PersonRepository>();
         services.AddScoped<IProductRepository, ProductRepository>();

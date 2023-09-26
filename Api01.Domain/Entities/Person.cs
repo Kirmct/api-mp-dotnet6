@@ -4,7 +4,6 @@ namespace Api01.Domain.Entities;
 
 public sealed class Person
 {
-
     public int Id { get; private set; }
     public string Name { get; private set; }
     public string Document { get; private set; }

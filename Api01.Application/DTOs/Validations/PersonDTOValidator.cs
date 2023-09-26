@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace Api01.Application.DTOs.Validations;
 
+//fluent joga essa mensagem dentro do ResultSerice
 public class PersonDTOValidator : AbstractValidator<PersonDTO>
 {
 	public PersonDTOValidator()

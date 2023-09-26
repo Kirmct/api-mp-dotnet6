@@ -13,13 +13,13 @@ public class ProductMap : IEntityTypeConfiguration<Product>
 {
     public void Configure(EntityTypeBuilder<Product> builder)
     {
-        builder.ToTable("PRODUTO");
+        builder.ToTable("produto");
         builder.HasKey(x => x.Id);
 
-        builder.Property(x => x.Id).HasColumnName("IDPESSOA").UseIdentityColumn(); ;
-        builder.Property(x => x.CodeErp).HasColumnName("CODEERP");
-        builder.Property(x => x.Name).HasColumnName("NOME");
-        builder.Property(x => x.Price).HasColumnName("PRECO");
+        builder.Property(x => x.Id).HasColumnName("idpessoa").UseIdentityColumn(); ;
+        builder.Property(x => x.CodeErp).HasColumnName("codeerp");
+        builder.Property(x => x.Name).HasColumnName("nome");
+        builder.Property(x => x.Price).HasColumnName("preco");
 
         //relacionamentos
         builder.HasMany(x => x.Purchases).WithOne(p => p.Product).HasForeignKey(x => x.ProductId);

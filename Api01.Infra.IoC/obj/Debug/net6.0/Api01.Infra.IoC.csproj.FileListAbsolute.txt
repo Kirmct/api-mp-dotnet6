@@ -3,3 +3,17 @@ C:\temp\ws-vs\Api01\Api01.Infra.IoC\obj\Debug\net6.0\Api01.Infra.IoC.GeneratedMS
 C:\temp\ws-vs\Api01\Api01.Infra.IoC\obj\Debug\net6.0\Api01.Infra.IoC.AssemblyInfoInputs.cache
 C:\temp\ws-vs\Api01\Api01.Infra.IoC\obj\Debug\net6.0\Api01.Infra.IoC.AssemblyInfo.cs
 C:\temp\ws-vs\Api01\Api01.Infra.IoC\obj\Debug\net6.0\Api01.Infra.IoC.csproj.CoreCompileInputs.cache
+C:\temp\ws-vs\Api01\Api01.Infra.IoC\bin\Debug\net6.0\Api01.Infra.IoC.deps.json
+C:\temp\ws-vs\Api01\Api01.Infra.IoC\bin\Debug\net6.0\Api01.Infra.IoC.dll
+C:\temp\ws-vs\Api01\Api01.Infra.IoC\bin\Debug\net6.0\Api01.Infra.IoC.pdb
+C:\temp\ws-vs\Api01\Api01.Infra.IoC\bin\Debug\net6.0\Api01.Application.dll
+C:\temp\ws-vs\Api01\Api01.Infra.IoC\bin\Debug\net6.0\Api01.Domain.dll
+C:\temp\ws-vs\Api01\Api01.Infra.IoC\bin\Debug\net6.0\Api01.Infra.Data.dll
+C:\temp\ws-vs\Api01\Api01.Infra.IoC\bin\Debug\net6.0\Api01.Application.pdb
+C:\temp\ws-vs\Api01\Api01.Infra.IoC\bin\Debug\net6.0\Api01.Domain.pdb
+C:\temp\ws-vs\Api01\Api01.Infra.IoC\bin\Debug\net6.0\Api01.Infra.Data.pdb
+C:\temp\ws-vs\Api01\Api01.Infra.IoC\obj\Debug\net6.0\Api01.Infra.IoC.csproj.CopyComplete
+C:\temp\ws-vs\Api01\Api01.Infra.IoC\obj\Debug\net6.0\Api01.Infra.IoC.dll
+C:\temp\ws-vs\Api01\Api01.Infra.IoC\obj\Debug\net6.0\refint\Api01.Infra.IoC.dll
+C:\temp\ws-vs\Api01\Api01.Infra.IoC\obj\Debug\net6.0\Api01.Infra.IoC.pdb
+C:\temp\ws-vs\Api01\Api01.Infra.IoC\obj\Debug\net6.0\ref\Api01.Infra.IoC.dll

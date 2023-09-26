@@ -13,13 +13,13 @@ public class PurchaseMap : IEntityTypeConfiguration<Purchase>
 {
     public void Configure(EntityTypeBuilder<Purchase> builder)
     {
-        builder.ToTable("COMPRA");
+        builder.ToTable("compra");
         builder.HasKey(x => x.Id);
 
-        builder.Property(x => x.Id).HasColumnName("IDCOMPRA").UseIdentityColumn();
-        builder.Property(x => x.PersonId).HasColumnName("IDPRODUTO");
-        builder.Property(x => x.ProductId).HasColumnName("IDCOMPRA");
-        builder.Property(x => x.Date).HasColumnName("DATACOMPRA");
+        builder.Property(x => x.Id).HasColumnName("idcompra").UseIdentityColumn();
+        builder.Property(x => x.PersonId).HasColumnName("idperson");
+        builder.Property(x => x.ProductId).HasColumnName("idproduto");
+        builder.Property(x => x.Date).HasColumnName("datacompra");
 
         //relacionamentos
         builder.HasOne(x => x.Person).WithMany(x => x.Purchases);
