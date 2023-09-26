@@ -1,0 +1,5 @@
+C:\temp\ws-vs\Api01\Api01.Infra.IoC\obj\Debug\net6.0\Api01.Infra.IoC.csproj.AssemblyReference.cache
+C:\temp\ws-vs\Api01\Api01.Infra.IoC\obj\Debug\net6.0\Api01.Infra.IoC.GeneratedMSBuildEditorConfig.editorconfig
+C:\temp\ws-vs\Api01\Api01.Infra.IoC\obj\Debug\net6.0\Api01.Infra.IoC.AssemblyInfoInputs.cache
+C:\temp\ws-vs\Api01\Api01.Infra.IoC\obj\Debug\net6.0\Api01.Infra.IoC.AssemblyInfo.cs
+C:\temp\ws-vs\Api01\Api01.Infra.IoC\obj\Debug\net6.0\Api01.Infra.IoC.csproj.CoreCompileInputs.cache

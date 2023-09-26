@@ -1,0 +1,6 @@
+C:\temp\ws-vs\Api01\Api01.Api\obj\Debug\net6.0\Api01.Api.csproj.AssemblyReference.cache
+C:\temp\ws-vs\Api01\Api01.Api\obj\Debug\net6.0\Api01.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\temp\ws-vs\Api01\Api01.Api\obj\Debug\net6.0\Api01.Api.AssemblyInfoInputs.cache
+C:\temp\ws-vs\Api01\Api01.Api\obj\Debug\net6.0\Api01.Api.AssemblyInfo.cs
+C:\temp\ws-vs\Api01\Api01.Api\obj\Debug\net6.0\Api01.Api.csproj.CoreCompileInputs.cache
+C:\temp\ws-vs\Api01\Api01.Api\obj\Debug\net6.0\Api01.Api.MvcApplicationPartsAssemblyInfo.cache

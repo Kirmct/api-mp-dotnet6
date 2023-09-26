@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "XSwQCFSiDCBYSLiV4gVyxJbkG3Z4G3lY1HiSSIfuwoFa2C2Du8j0uwYuSeLVnOB5jr0yMp2w9iOHx3YfLLaYPA==",
+  "dgSpecHash": "q32/kCxe9v/4/y6j1zkHg4IbcsIeO8kiqztopCLvIw9haHbWY49NHrr/RnNBfkHLbkfZ0bkzRDn5QtB/SW27FQ==",
   "success": true,
   "projectFilePath": "C:\\temp\\ws-vs\\Api01\\Api01.Api\\Api01.Api.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\kirmc\\.nuget\\packages\\fluentvalidation\\11.7.1\\fluentvalidation.11.7.1.nupkg.sha512",
+    "C:\\Users\\kirmc\\.nuget\\packages\\fluentvalidation\\10.3.6\\fluentvalidation.10.3.6.nupkg.sha512",
     "C:\\Users\\kirmc\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.11\\microsoft.entityframeworkcore.7.0.11.nupkg.sha512",
     "C:\\Users\\kirmc\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.11\\microsoft.entityframeworkcore.abstractions.7.0.11.nupkg.sha512",
     "C:\\Users\\kirmc\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.11\\microsoft.entityframeworkcore.analyzers.7.0.11.nupkg.sha512",

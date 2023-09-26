@@ -124,7 +124,7 @@
           "dependencies": {
             "FluentValidation": {
               "target": "Package",
-              "version": "[11.7.1, )"
+              "version": "[10.3.6, )"
             }
           },
           "imports": [
