@@ -18,7 +18,8 @@ namespace Api01.Infra.IoC;
 public static class DependencyInject
 {
     //injecao para os repositorios / infraestrutura do proejto
-    public static IServiceCollection AddInfrastructure(this IServiceCollection services, IConfiguration configuration)
+    public static IServiceCollection AddInfrastructure(this IServiceCollection services,
+        IConfiguration configuration)
     {
         //injetando o banco
         services.AddDbContext<ApplicationDbContext>(options => 
@@ -32,12 +33,14 @@ public static class DependencyInject
     }
 
     
-    public static IServiceCollection AddServices(this IServiceCollection services, IConfiguration configuration)
+    public static IServiceCollection AddServices(this IServiceCollection services,
+        IConfiguration configuration)
     {
         //lembrar de instalar a dependency do AutoMapper e injetar aqui
         services.AddAutoMapper(typeof(DomainToDtoMapping));
 
         services.AddScoped<IPersonService, PersonService>();
+        services.AddScoped<IProductService, ProductService>();
 
         return services;
     }

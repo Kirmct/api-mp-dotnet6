@@ -12,6 +12,12 @@ namespace Api01.Application.Services.Interfaces
         Task<ResultService<PersonDTO>> CreateAsync(PersonDTO personDTO);
 
         Task<ResultService<ICollection<PersonDTO>>> GetAsync();
+
         Task<ResultService<PersonDTO>> GetByIdAsync(int id);
+
+        Task<ResultService> UpadateAsync(PersonDTO personDTO);
+
+        Task<ResultService> DeleteAsync(int id);
+        
     }
 }

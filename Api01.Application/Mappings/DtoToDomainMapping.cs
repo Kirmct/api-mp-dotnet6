@@ -14,6 +14,8 @@ namespace Api01.Application.Mappings
         public DtoToDomainMapping() 
         {
             CreateMap<PersonDTO, Person>();
+            CreateMap<ProductDTO, Product>();
+
         }
     }
 }
